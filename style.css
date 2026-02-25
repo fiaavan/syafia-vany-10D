@@ -1,0 +1,137 @@
+body {
+background-color:#ffe0e0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #9b3131;
+margin: 20px;
+}
+h1 {
+color: #b14848;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+color: #b14848;
+text-align: left;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p {
+font-size: 18px;
+text-align: left;
+line-height: 1.5;
+}
+
+
+.daftar-produk{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.produk {
+background-color: #ffe0e0;
+border: 1px solid #b14848;
+padding: 15px;
+border-radius: 10px; 
+text-align: center;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+}  
+
+.produk img {
+width: 150px;
+height: auto;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.produk h2 {
+font-size: 20px;
+color: #700000;
+}
+.produk h3 {
+font-size: 16px;    
+color: #ffe0e0;
+}
+.harga {
+font-weight: bold;    
+color: #00924e;
+}
+.deskripsi {
+font-size: 14px;   
+color:#b14848;
+}
+
+.artikel {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fffdfd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+}
+.artikel .penulis {
+    font-style: italic;
+    color: #b14848;
+    margin-bottom: 20px;
+}
+.artikel .sampul {
+    width: 180px;
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 1px solid #700000;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.artikel blockquote {
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #a86161;
+    color: #700000;
+    background-color: #fff4f4;
+}
+.btn-kembali {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 16px;
+    background-color: rgb(207, 131, 131);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn-kembali:hover {
+    background-color: #b14848;
+}
+.formulir {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffe0e0;
+    border-radius: 10px;
+    box-shadow: #b14848;
+}
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: #a86161;
+}
+form button {
+    background-color: rgb(207, 131, 131);
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #b14848;
+}
